@@ -1,0 +1,151 @@
+body::-webkit-scrollbar{
+	display: none;
+	height: 100vh;
+}
+nav {
+    background-color: #111;
+    overflow: hidden;
+    max-width: 100%;
+  }
+nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 25px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+nav img#Logo{
+    padding: 7px 25px;
+}
+nav img#del{
+   float: right;
+   padding: 5px 45px;
+}
+.container img#milktea1{
+  display: grid;
+  height: 28em;
+  margin-left: 11em;
+  margin-top: 1em;
+}
+.container img#good{
+  display: grid;
+  margin-left: 42em;
+  height: 210px;
+  margin-top: -25em;
+}
+.button{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 300px;
+  min-height: 90px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: black;
+  height: 48px;
+  margin-top: 1em;
+  margin-left: 24em;
+}
+.button:hover{
+  background-color: gray;
+}
+.container img#milkflow{
+  display: grid;
+  height: auto;
+  max-width: 100%;
+  margin-top: 120px;
+}
+.container img#milktea3{
+  display: grid;
+  height: auto;
+  max-width: 100%;
+  margin-top: -10px;
+}
+.container img#bottom{
+  display: grid;
+  height: auto;
+  max-width: 100%;
+}
+.container img#girl{
+  position: absolute;
+  display: grid;
+  height: auto;
+  max-width: 100%;
+  z-index: 1;
+}
+.contact {
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 500px;
+  margin-top: 9em;
+  margin-left: 52em;
+  z-index: 2;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.con {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2em;
+}
+
+.con:hover {
+  background-color: gray;
+}
+.container img#navbot{
+  position: absolute;
+  width: 100%;
+  margin-top: 54em;
+  height: 12em;
+  z-index: 3;
+}
